@@ -1,0 +1,218 @@
+[
+  {
+    "id": "req-1",
+    "url": "https://playgroundbackend.vercel.app/api/categories/",
+    "method": "GET",
+    "resourceType": "xhr",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.playground.testingmavens.tools/",
+      "accept-language": "en-US",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.4 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "ssid": "a557fa4c-85bd-4434-83bf-e444ef9c9448"
+    },
+    "timestamp": "2025-11-27T07:38:38.409Z",
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "x-vercel-cache": "MISS",
+        "etag": "W/\"26-12xz4P3e9JJX16IUzosmYjGwhTk\"",
+        "age": "0",
+        "access-control-allow-origin": "*",
+        "content-length": "38",
+        "date": "Thu, 27 Nov 2025 07:38:41 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "x-powered-by": "Express",
+        "server": "Vercel",
+        "x-vercel-id": "bom1::iad1::gspmw-1764229118092-20d3ec0ff843"
+      },
+      "body": "[\"Headsets\",\"Laptops\",\"Mobiles\",\"TVs\"]"
+    }
+  },
+  {
+    "id": "req-2",
+    "url": "https://playgroundbackend.vercel.app/api/cart/",
+    "method": "GET",
+    "resourceType": "xhr",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.playground.testingmavens.tools/",
+      "accept-language": "en-US",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.4 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "ssid": "a557fa4c-85bd-4434-83bf-e444ef9c9448"
+    },
+    "timestamp": "2025-11-27T07:38:38.411Z",
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "x-vercel-cache": "MISS",
+        "etag": "W/\"5b-NuhjfnM7Yk6mNeImAmmbjkp6xAc\"",
+        "age": "0",
+        "access-control-allow-origin": "*",
+        "content-length": "91",
+        "date": "Thu, 27 Nov 2025 07:38:38 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "x-powered-by": "Express",
+        "server": "Vercel",
+        "x-vercel-id": "bom1::iad1::hkqlq-1764229118076-b28680e4f6e3"
+      },
+      "body": "{\"ssid\":\"a557fa4c-85bd-4434-83bf-e444ef9c9448\",\"items\":[],\"_id\":\"6927fffe6ded3339391751b1\"}"
+    }
+  },
+  {
+    "id": "req-3",
+    "url": "https://playgroundbackend.vercel.app/api/products/carousal/",
+    "method": "GET",
+    "resourceType": "xhr",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.playground.testingmavens.tools/",
+      "accept-language": "en-US",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.4 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "ssid": "a557fa4c-85bd-4434-83bf-e444ef9c9448"
+    },
+    "timestamp": "2025-11-27T07:38:38.412Z",
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "br",
+        "x-vercel-cache": "MISS",
+        "etag": "W/\"1035-/DGTk1XBenc+INb+PDbikvqtw6M\"",
+        "age": "0",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 27 Nov 2025 07:38:41 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "x-powered-by": "Express",
+        "server": "Vercel",
+        "x-vercel-id": "bom1::iad1::bm79v-1764229118087-cdae1c97c756"
+      },
+      "body": "{\"products\":[{\"_id\":\"668c0a41b27d61c76b4f4a86\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/cc0d78e9-c0c4-454c-8572-ad6975065694-laptop8.jpeg\",\"productName\":\"Acer Predator Helios 300\",\"price\":1299,\"color\":\"Abyssal Black\",\"badge\":true,\"brand\":\"Acer\",\"des\":\"The Acer Predator Helios 300 is a gaming laptop featuring a 15.6-inch Full HD display, 10th Gen Intel Core i7 processor, 16GB RAM, and 1TB SSD storage. With its NVIDIA GeForce RTX graphics, it offers smooth gameplay and immersive visuals.\",\"cat\":\"Laptops\",\"ficheTech\":[{\"label\":\"Processor\",\"value\":\"Intel Core i7\",\"_id\":\"668c0a41b27d61c76b4f4a87\"},{\"label\":\"RAM\",\"value\":\"16GB\",\"_id\":\"668c0a41b27d61c76b4f4a88\"},{\"label\":\"Storage\",\"value\":\"1TB SSD\",\"_id\":\"668c0a41b27d61c76b4f4a89\"},{\"label\":\"Display\",\"value\":\"15.6-inch Full HD\",\"_id\":\"668c0a41b27d61c76b4f4a8a\"},{\"label\":\"Graphics\",\"value\":\"NVIDIA GeForce RTX\",\"_id\":\"668c0a41b27d61c76b4f4a8b\"},{\"label\":\"Operating System\",\"value\":\"Windows 10 Home\",\"_id\":\"668c0a41b27d61c76b4f4a8c\"}],\"__v\":0},{\"_id\":\"668c0a40b27d61c76b4f4a76\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/95c92a49-dd94-4b12-9f59-c220126ea26a-laptop6.jpeg\",\"productName\":\"Microsoft Surface Laptop 4\",\"price\":1299,\"color\":\"Platinum\",\"badge\":true,\"brand\":\"Microsoft\",\"des\":\"The Microsoft Surface Laptop 4 features a 13.5-inch PixelSense touchscreen display, 11th Gen Intel Core i5 processor, 8GB RAM, and 256GB SSD storage. With its premium design and lightweight construction, it's perfect for productivity on the go.\",\"cat\":\"Laptops\",\"ficheTech\":[{\"label\":\"Processor\",\"value\":\"Intel Core i5\",\"_id\":\"668c0a40b27d61c76b4f4a77\"},{\"label\":\"RAM\",\"value\":\"8GB\",\"_id\":\"668c0a40b27d61c76b4f4a78\"},{\"label\":\"Storage\",\"value\":\"256GB SSD\",\"_id\":\"668c0a40b27d61c76b4f4a79\"},{\"label\":\"Display\",\"value\":\"13.5-inch PixelSense Touchscreen\",\"_id\":\"668c0a40b27d61c76b4f4a7a\"},{\"label\":\"Graphics\",\"value\":\"Integrated Intel Iris Xe\",\"_id\":\"668c0a40b27d61c76b4f4a7b\"},{\"label\":\"Operating System\",\"value\":\"Windows 10 Home\",\"_id\":\"668c0a40b27d61c76b4f4a7c\"}],\"__v\":0},{\"_id\":\"668c0a45b27d61c76b4f4abe\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/6b4e4c2e-a820-4ba5-9123-b2d55b6f3fe1-mobile5.jpeg\",\"productName\":\"Xiaomi Mi 12\",\"price\":899,\"color\":\"Celestial Blue\",\"badge\":true,\"brand\":\"Xiaomi\",\"des\":\"The Xiaomi Mi 12 boasts a 6.8-inch AMOLED display, Qualcomm Snapdragon 8 Gen 1 chip, quad-camera system with 50MP main sensor, and up to 1TB of storage. It offers flagship-level performance and photography capabilities.\",\"cat\":\"Mobiles\",\"ficheTech\":[{\"label\":\"Display\",\"value\":\"6.8-inch AMOLED\",\"_id\":\"668c0a45b27d61c76b4f4abf\"},{\"label\":\"Processor\",\"value\":\"Qualcomm Snapdragon 8 Gen 1\",\"_id\":\"668c0a45b27d61c76b4f4ac0\"},{\"label\":\"RAM\",\"value\":\"8GB / 12GB\",\"_id\":\"668c0a45b27d61c76b4f4ac1\"},{\"label\":\"Storage\",\"value\":\"256GB / 512GB / 1TB\",\"_id\":\"668c0a45b27d61c76b4f4ac2\"},{\"label\":\"Camera\",\"value\":\"Quad 50MP + 50MP + 8MP + 2MP\",\"_id\":\"668c0a45b27d61c76b4f4ac3\"},{\"label\":\"Battery\",\"value\":\"5000mAh\",\"_id\":\"668c0a45b27d61c76b4f4ac4\"}],\"__v\":0},{\"_id\":\"668c0a48b27d61c76b4f4aee\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/f8bcb8f6-dd9b-4d98-a37e-849abee148c1-headset1.webp\",\"productName\":\"Sony WH-1000XM4\",\"price\":349.99,\"color\":\"Black\",\"badge\":true,\"brand\":\"Sony\",\"des\":\"Experience industry-leading noise cancellation with the Sony WH-1000XM4 headphones. Featuring advanced Adaptive Sound Control, Dual Noise Sensor technology, and up to 30 hours of battery life, they deliver immersive sound in any environment.\",\"cat\":\"Headsets\",\"ficheTech\":[{\"label\":\"Noise Cancellation\",\"value\":\"Yes (Active Noise Cancellation)\",\"_id\":\"668c0a48b27d61c76b4f4aef\"},{\"label\":\"Battery Life\",\"value\":\"Up to 30 hours\",\"_id\":\"668c0a48b27d61c76b4f4af0\"},{\"label\":\"Bluetooth Version\",\"value\":\"5.0\",\"_id\":\"668c0a48b27d61c76b4f4af1\"},{\"label\":\"Driver Unit\",\"value\":\"40mm, dome type (CCAW Voice coil)\",\"_id\":\"668c0a48b27d61c76b4f4af2\"},{\"label\":\"Frequency Response\",\"value\":\"4Hz-40,000Hz\",\"_id\":\"668c0a48b27d61c76b4f4af3\"},{\"label\":\"Weight\",\"value\":\"Approx. 254g\",\"_id\":\"668c0a48b27d61c76b4f4af4\"}],\"__v\":0}]}"
+    }
+  },
+  {
+    "id": "req-4",
+    "url": "https://playgroundbackend.vercel.app/api/products/discount/",
+    "method": "GET",
+    "resourceType": "xhr",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.playground.testingmavens.tools/",
+      "accept-language": "en-US",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.4 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "ssid": "a557fa4c-85bd-4434-83bf-e444ef9c9448"
+    },
+    "timestamp": "2025-11-27T07:38:38.412Z",
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "br",
+        "x-vercel-cache": "MISS",
+        "etag": "W/\"fea-rKD3pmEol5PJKPBp8NukB7qgf5g\"",
+        "age": "0",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 27 Nov 2025 07:38:38 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "x-powered-by": "Express",
+        "server": "Vercel",
+        "x-vercel-id": "bom1::iad1::mxgzv-1764229118076-caadc6656d00"
+      },
+      "body": "[{\"_id\":\"668c0a4db27d61c76b4f4b3e\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/8413ce7e-eb93-4c29-8edf-c5eabafe781f-tv1.jpeg\",\"productName\":\"Samsung QN90A Neo QLED\",\"price\":1999.99,\"color\":\"Titan Black\",\"badge\":true,\"brand\":\"Samsung\",\"des\":\"Experience stunning picture quality with the Samsung QN90A Neo QLED TV. Featuring Quantum Matrix Technology, Neo Quantum Processor 4K, and Object Tracking Sound+, it offers immersive visuals and dynamic audio.\",\"cat\":\"TVs\",\"ficheTech\":[{\"label\":\"Screen Size\",\"value\":\"65 inches\",\"_id\":\"668c0a4db27d61c76b4f4b3f\"},{\"label\":\"Resolution\",\"value\":\"4K UHD\",\"_id\":\"668c0a4db27d61c76b4f4b40\"},{\"label\":\"Display Technology\",\"value\":\"Neo QLED\",\"_id\":\"668c0a4db27d61c76b4f4b41\"},{\"label\":\"HDR\",\"value\":\"Quantum HDR 32x\",\"_id\":\"668c0a4db27d61c76b4f4b42\"},{\"label\":\"Smart Platform\",\"value\":\"Samsung Tizen\",\"_id\":\"668c0a4db27d61c76b4f4b43\"},{\"label\":\"HDMI Ports\",\"value\":\"4\",\"_id\":\"668c0a4db27d61c76b4f4b44\"}],\"__v\":0},{\"_id\":\"668c0a43b27d61c76b4f4a9e\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/9a453004-36b7-4022-8cc2-af1ac4cd728f-mobile1.jpeg\",\"productName\":\"iPhone 13 Pro\",\"price\":999,\"color\":\"Graphite\",\"badge\":true,\"brand\":\"Apple\",\"des\":\"The iPhone 13 Pro features a stunning 6.1-inch Super Retina XDR display, A15 Bionic chip, triple-camera system with LiDAR scanner, and up to 1TB of storage. It offers exceptional performance, photography, and battery life.\",\"cat\":\"Mobiles\",\"ficheTech\":[{\"label\":\"Display\",\"value\":\"6.1-inch Super Retina XDR\",\"_id\":\"668c0a43b27d61c76b4f4a9f\"},{\"label\":\"Processor\",\"value\":\"A15 Bionic chip\",\"_id\":\"668c0a43b27d61c76b4f4aa0\"},{\"label\":\"RAM\",\"value\":\"6GB\",\"_id\":\"668c0a43b27d61c76b4f4aa1\"},{\"label\":\"Storage\",\"value\":\"Up to 1TB\",\"_id\":\"668c0a43b27d61c76b4f4aa2\"},{\"label\":\"Camera\",\"value\":\"Triple 12MP Ultra Wide, Wide, and Telephoto cameras\",\"_id\":\"668c0a43b27d61c76b4f4aa3\"},{\"label\":\"Operating System\",\"value\":\"iOS 15\",\"_id\":\"668c0a43b27d61c76b4f4aa4\"}],\"__v\":0},{\"_id\":\"668c0a48b27d61c76b4f4aee\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/f8bcb8f6-dd9b-4d98-a37e-849abee148c1-headset1.webp\",\"productName\":\"Sony WH-1000XM4\",\"price\":349.99,\"color\":\"Black\",\"badge\":true,\"brand\":\"Sony\",\"des\":\"Experience industry-leading noise cancellation with the Sony WH-1000XM4 headphones. Featuring advanced Adaptive Sound Control, Dual Noise Sensor technology, and up to 30 hours of battery life, they deliver immersive sound in any environment.\",\"cat\":\"Headsets\",\"ficheTech\":[{\"label\":\"Noise Cancellation\",\"value\":\"Yes (Active Noise Cancellation)\",\"_id\":\"668c0a48b27d61c76b4f4aef\"},{\"label\":\"Battery Life\",\"value\":\"Up to 30 hours\",\"_id\":\"668c0a48b27d61c76b4f4af0\"},{\"label\":\"Bluetooth Version\",\"value\":\"5.0\",\"_id\":\"668c0a48b27d61c76b4f4af1\"},{\"label\":\"Driver Unit\",\"value\":\"40mm, dome type (CCAW Voice coil)\",\"_id\":\"668c0a48b27d61c76b4f4af2\"},{\"label\":\"Frequency Response\",\"value\":\"4Hz-40,000Hz\",\"_id\":\"668c0a48b27d61c76b4f4af3\"},{\"label\":\"Weight\",\"value\":\"Approx. 254g\",\"_id\":\"668c0a48b27d61c76b4f4af4\"}],\"__v\":0},{\"_id\":\"668c0a3ab27d61c76b4f4a4e\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/55d2d711-00c3-48c2-a227-fbc871157d24-laptop1.jpeg\",\"productName\":\"Dell XPS 13\",\"price\":1299,\"color\":\"Silver\",\"badge\":true,\"brand\":\"Dell\",\"des\":\"The Dell XPS 13 is a sleek and powerful laptop featuring a 13.4-inch InfinityEdge display, 11th Gen Intel Core i7 processor, 16GB RAM, and 512GB SSD storage. It offers stunning visuals and exceptional performance for both work and entertainment.\",\"cat\":\"Laptops\",\"ficheTech\":[{\"label\":\"Processor\",\"value\":\"Intel Core i7\",\"_id\":\"668c0a3ab27d61c76b4f4a4f\"},{\"label\":\"RAM\",\"value\":\"16GB\",\"_id\":\"668c0a3ab27d61c76b4f4a50\"},{\"label\":\"Storage\",\"value\":\"512GB SSD\",\"_id\":\"668c0a3ab27d61c76b4f4a51\"},{\"label\":\"Display\",\"value\":\"13.4-inch InfinityEdge\",\"_id\":\"668c0a3ab27d61c76b4f4a52\"},{\"label\":\"Graphics\",\"value\":\"Integrated Intel Iris Xe\",\"_id\":\"668c0a3ab27d61c76b4f4a53\"},{\"label\":\"Operating System\",\"value\":\"Windows 10 Home\",\"_id\":\"668c0a3ab27d61c76b4f4a54\"}],\"__v\":0}]"
+    }
+  },
+  {
+    "id": "req-5",
+    "url": "https://playgroundbackend.vercel.app/api/products/new-arrival/",
+    "method": "GET",
+    "resourceType": "xhr",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.playground.testingmavens.tools/",
+      "accept-language": "en-US",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.4 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "ssid": "a557fa4c-85bd-4434-83bf-e444ef9c9448"
+    },
+    "timestamp": "2025-11-27T07:38:38.413Z",
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "br",
+        "x-vercel-cache": "MISS",
+        "etag": "W/\"27ed-akHduZFGpNCfC+XrGyMhhl6hphQ\"",
+        "age": "0",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 27 Nov 2025 07:38:38 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "x-powered-by": "Express",
+        "server": "Vercel",
+        "x-vercel-id": "bom1::iad1::ktjcc-1764229118076-d6bde8cf3003"
+      },
+      "body": "{\"products\":[{\"_id\":\"668c0a48b27d61c76b4f4aee\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/f8bcb8f6-dd9b-4d98-a37e-849abee148c1-headset1.webp\",\"productName\":\"Sony WH-1000XM4\",\"price\":349.99,\"color\":\"Black\",\"badge\":true,\"brand\":\"Sony\",\"des\":\"Experience industry-leading noise cancellation with the Sony WH-1000XM4 headphones. Featuring advanced Adaptive Sound Control, Dual Noise Sensor technology, and up to 30 hours of battery life, they deliver immersive sound in any environment.\",\"cat\":\"Headsets\",\"ficheTech\":[{\"label\":\"Noise Cancellation\",\"value\":\"Yes (Active Noise Cancellation)\",\"_id\":\"668c0a48b27d61c76b4f4aef\"},{\"label\":\"Battery Life\",\"value\":\"Up to 30 hours\",\"_id\":\"668c0a48b27d61c76b4f4af0\"},{\"label\":\"Bluetooth Version\",\"value\":\"5.0\",\"_id\":\"668c0a48b27d61c76b4f4af1\"},{\"label\":\"Driver Unit\",\"value\":\"40mm, dome type (CCAW Voice coil)\",\"_id\":\"668c0a48b27d61c76b4f4af2\"},{\"label\":\"Frequency Response\",\"value\":\"4Hz-40,000Hz\",\"_id\":\"668c0a48b27d61c76b4f4af3\"},{\"label\":\"Weight\",\"value\":\"Approx. 254g\",\"_id\":\"668c0a48b27d61c76b4f4af4\"}],\"__v\":0},{\"_id\":\"668c0a3eb27d61c76b4f4a6e\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/725979ee-6f29-4a2b-8ea7-31c0cdb08dcb-laptop5.webp\",\"productName\":\"Asus ZenBook 14\",\"price\":1099,\"color\":\"Royal Blue\",\"badge\":true,\"brand\":\"Asus\",\"des\":\"The Asus ZenBook 14 is an ultra-slim laptop with a 14-inch Full HD display, AMD Ryzen 7 processor, 16GB RAM, and 512GB SSD storage. It offers exceptional portability without compromising on performance.\",\"cat\":\"Laptops\",\"ficheTech\":[{\"label\":\"Processor\",\"value\":\"AMD Ryzen 7\",\"_id\":\"668c0a3eb27d61c76b4f4a6f\"},{\"label\":\"RAM\",\"value\":\"16GB\",\"_id\":\"668c0a3eb27d61c76b4f4a70\"},{\"label\":\"Storage\",\"value\":\"512GB SSD\",\"_id\":\"668c0a3eb27d61c76b4f4a71\"},{\"label\":\"Display\",\"value\":\"14-inch Full HD\",\"_id\":\"668c0a3eb27d61c76b4f4a72\"},{\"label\":\"Graphics\",\"value\":\"Integrated AMD Radeon Graphics\",\"_id\":\"668c0a3eb27d61c76b4f4a73\"},{\"label\":\"Operating System\",\"value\":\"Windows 10 Home\",\"_id\":\"668c0a3eb27d61c76b4f4a74\"}],\"__v\":0},{\"_id\":\"668c0a47b27d61c76b4f4ade\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/31d0e4dc-d27a-46ef-a0f9-9f7d66eb4e76-mobile9.webp\",\"productName\":\"Realme GT 2 Pro\",\"price\":799,\"color\":\"Paper White\",\"badge\":true,\"brand\":\"Realme\",\"des\":\"The Realme GT 2 Pro boasts a 6.7-inch Super AMOLED display, Qualcomm Snapdragon 8 Gen 1 chip, triple-camera system with Sony IMX766 sensor, and up to 512GB of storage. It offers flagship-level performance and design at an affordable price.\",\"cat\":\"Mobiles\",\"ficheTech\":[{\"label\":\"Display\",\"value\":\"6.7-inch Super AMOLED\",\"_id\":\"668c0a47b27d61c76b4f4adf\"},{\"label\":\"Processor\",\"value\":\"Qualcomm Snapdragon 8 Gen 1\",\"_id\":\"668c0a47b27d61c76b4f4ae0\"},{\"label\":\"RAM\",\"value\":\"8GB / 12GB\",\"_id\":\"668c0a47b27d61c76b4f4ae1\"},{\"label\":\"Storage\",\"value\":\"256GB / 512GB\",\"_id\":\"668c0a47b27d61c76b4f4ae2\"},{\"label\":\"Camera\",\"value\":\"Triple 50MP + 16MP + 13MP\",\"_id\":\"668c0a47b27d61c76b4f4ae3\"},{\"label\":\"Operating System\",\"value\":\"Realme UI 3.0 (Android 12)\",\"_id\":\"668c0a47b27d61c76b4f4ae4\"}],\"__v\":0},{\"_id\":\"668c0a41b27d61c76b4f4a86\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/cc0d78e9-c0c4-454c-8572-ad6975065694-laptop8.jpeg\",\"productName\":\"Acer Predator Helios 300\",\"price\":1299,\"color\":\"Abyssal Black\",\"badge\":true,\"brand\":\"Acer\",\"des\":\"The Acer Predator Helios 300 is a gaming laptop featuring a 15.6-inch Full HD display, 10th Gen Intel Core i7 processor, 16GB RAM, and 1TB SSD storage. With its NVIDIA GeForce RTX graphics, it offers smooth gameplay and immersive visuals.\",\"cat\":\"Laptops\",\"ficheTech\":[{\"label\":\"Processor\",\"value\":\"Intel Core i7\",\"_id\":\"668c0a41b27d61c76b4f4a87\"},{\"label\":\"RAM\",\"value\":\"16GB\",\"_id\":\"668c0a41b27d61c76b4f4a88\"},{\"label\":\"Storage\",\"value\":\"1TB SSD\",\"_id\":\"668c0a41b27d61c76b4f4a89\"},{\"label\":\"Display\",\"value\":\"15.6-inch Full HD\",\"_id\":\"668c0a41b27d61c76b4f4a8a\"},{\"label\":\"Graphics\",\"value\":\"NVIDIA GeForce RTX\",\"_id\":\"668c0a41b27d61c76b4f4a8b\"},{\"label\":\"Operating System\",\"value\":\"Windows 10 Home\",\"_id\":\"668c0a41b27d61c76b4f4a8c\"}],\"__v\":0},{\"_id\":\"668c0a40b27d61c76b4f4a76\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/95c92a49-dd94-4b12-9f59-c220126ea26a-laptop6.jpeg\",\"productName\":\"Microsoft Surface Laptop 4\",\"price\":1299,\"color\":\"Platinum\",\"badge\":true,\"brand\":\"Microsoft\",\"des\":\"The Microsoft Surface Laptop 4 features a 13.5-inch PixelSense touchscreen display, 11th Gen Intel Core i5 processor, 8GB RAM, and 256GB SSD storage. With its premium design and lightweight construction, it's perfect for productivity on the go.\",\"cat\":\"Laptops\",\"ficheTech\":[{\"label\":\"Processor\",\"value\":\"Intel Core i5\",\"_id\":\"668c0a40b27d61c76b4f4a77\"},{\"label\":\"RAM\",\"value\":\"8GB\",\"_id\":\"668c0a40b27d61c76b4f4a78\"},{\"label\":\"Storage\",\"value\":\"256GB SSD\",\"_id\":\"668c0a40b27d61c76b4f4a79\"},{\"label\":\"Display\",\"value\":\"13.5-inch PixelSense Touchscreen\",\"_id\":\"668c0a40b27d61c76b4f4a7a\"},{\"label\":\"Graphics\",\"value\":\"Integrated Intel Iris Xe\",\"_id\":\"668c0a40b27d61c76b4f4a7b\"},{\"label\":\"Operating System\",\"value\":\"Windows 10 Home\",\"_id\":\"668c0a40b27d61c76b4f4a7c\"}],\"__v\":0},{\"_id\":\"668c0a43b27d61c76b4f4aa6\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/b72ef43c-2192-458e-aad3-1360a3c7540a-mobile2.jpeg\",\"productName\":\"Samsung Galaxy S22 Ultra\",\"price\":1199.99,\"color\":\"Phantom Black\",\"badge\":true,\"brand\":\"Samsung\",\"des\":\"Experience the ultimate in mobile technology with the Samsung Galaxy S22 Ultra. Featuring a stunning 6.8-inch Dynamic AMOLED display, powerful Exynos 2200 processor, 12GB RAM, and up to 1TB of storage. Capture every moment with its pro-grade camera system.\",\"cat\":\"Mobiles\",\"ficheTech\":[{\"label\":\"Display\",\"value\":\"6.8-inch Dynamic AMOLED\",\"_id\":\"668c0a43b27d61c76b4f4aa7\"},{\"label\":\"Processor\",\"value\":\"Exynos 2200\",\"_id\":\"668c0a43b27d61c76b4f4aa8\"},{\"label\":\"RAM\",\"value\":\"12GB\",\"_id\":\"668c0a43b27d61c76b4f4aa9\"},{\"label\":\"Storage\",\"value\":\"Up to 1TB\",\"_id\":\"668c0a43b27d61c76b4f4aaa\"},{\"label\":\"Camera\",\"value\":\"Quad 108MP + 12MP + 10MP + 10MP\",\"_id\":\"668c0a43b27d61c76b4f4aab\"},{\"label\":\"Battery\",\"value\":\"5000mAh\",\"_id\":\"668c0a43b27d61c76b4f4aac\"}],\"__v\":0},{\"_id\":\"668c0a47b27d61c76b4f4ae6\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/5820960d-f568-4b48-aad2-dd76a7d41f74-mobile10.jpeg\",\"productName\":\"Motorola Edge 30 Pro\",\"price\":699,\"color\":\"Midnight Blue\",\"badge\":true,\"brand\":\"Motorola\",\"des\":\"The Motorola Edge 30 Pro features a 6.7-inch OLED display, Qualcomm Snapdragon 8 Gen 1 chip, triple-camera system with 50MP main sensor, and up to 512GB of storage. It offers flagship performance and a long-lasting battery.\",\"cat\":\"Mobiles\",\"ficheTech\":[{\"label\":\"Display\",\"value\":\"6.7-inch OLED\",\"_id\":\"668c0a47b27d61c76b4f4ae7\"},{\"label\":\"Processor\",\"value\":\"Qualcomm Snapdragon 8 Gen 1\",\"_id\":\"668c0a47b27d61c76b4f4ae8\"},{\"label\":\"RAM\",\"value\":\"8GB / 12GB\",\"_id\":\"668c0a47b27d61c76b4f4ae9\"},{\"label\":\"Storage\",\"value\":\"256GB / 512GB\",\"_id\":\"668c0a47b27d61c76b4f4aea\"},{\"label\":\"Camera\",\"value\":\"Triple 50MP + 50MP + 8MP\",\"_id\":\"668c0a47b27d61c76b4f4aeb\"},{\"label\":\"Battery\",\"value\":\"5000mAh\",\"_id\":\"668c0a47b27d61c76b4f4aec\"}],\"__v\":0},{\"_id\":\"668c0a44b27d61c76b4f4ab6\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/1b3236b2-52f9-4cba-a647-b772f2634e72-mobile4.jpeg\",\"productName\":\"OnePlus 10 Pro\",\"price\":899,\"color\":\"Morning Mist\",\"badge\":true,\"brand\":\"OnePlus\",\"des\":\"The OnePlus 10 Pro features a 6.7-inch Fluid AMOLED display, Qualcomm Snapdragon 8 Gen 1 chip, triple-camera system with Hasselblad optics, and up to 512GB of storage. It offers fast performance and smooth user experience.\",\"cat\":\"Mobiles\",\"ficheTech\":[{\"label\":\"Display\",\"value\":\"6.7-inch Fluid AMOLED\",\"_id\":\"668c0a44b27d61c76b4f4ab7\"},{\"label\":\"Processor\",\"value\":\"Qualcomm Snapdragon 8 Gen 1\",\"_id\":\"668c0a44b27d61c76b4f4ab8\"},{\"label\":\"RAM\",\"value\":\"8GB / 12GB\",\"_id\":\"668c0a44b27d61c76b4f4ab9\"},{\"label\":\"Storage\",\"value\":\"256GB / 512GB\",\"_id\":\"668c0a44b27d61c76b4f4aba\"},{\"label\":\"Camera\",\"value\":\"Triple 48MP Wide, 50MP Ultra-Wide, 8MP Telephoto\",\"_id\":\"668c0a44b27d61c76b4f4abb\"},{\"label\":\"Operating System\",\"value\":\"OxygenOS 12 (Android 12)\",\"_id\":\"668c0a44b27d61c76b4f4abc\"}],\"__v\":0},{\"_id\":\"668c0a50b27d61c76b4f4b4e\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/6b1ef449-3790-4bea-afac-45c075c18294-tv3.jpeg\",\"productName\":\"Sony A90J OLED\",\"price\":2799.99,\"color\":\"Black\",\"badge\":true,\"brand\":\"Sony\",\"des\":\"Immerse yourself in lifelike visuals with the Sony A90J OLED TV. Featuring XR OLED Contrast Pro, Cognitive Processor XR, and Acoustic Surface Audio+, it offers stunning picture quality and immersive sound.\",\"cat\":\"TVs\",\"ficheTech\":[{\"label\":\"Screen Size\",\"value\":\"65 inches\",\"_id\":\"668c0a50b27d61c76b4f4b4f\"},{\"label\":\"Resolution\",\"value\":\"4K UHD\",\"_id\":\"668c0a50b27d61c76b4f4b50\"},{\"label\":\"Display Technology\",\"value\":\"OLED\",\"_id\":\"668c0a50b27d61c76b4f4b51\"},{\"label\":\"HDR\",\"value\":\"HDR10, Dolby Vision, HLG\",\"_id\":\"668c0a50b27d61c76b4f4b52\"},{\"label\":\"Smart Platform\",\"value\":\"Google TV\",\"_id\":\"668c0a50b27d61c76b4f4b53\"},{\"label\":\"HDMI Ports\",\"value\":\"4\",\"_id\":\"668c0a50b27d61c76b4f4b54\"}],\"__v\":0},{\"_id\":\"668c0a4ab27d61c76b4f4b0e\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/76eb2e4f-14e6-4a2c-8a69-0e246949e9d0-headset5.jpeg\",\"productName\":\"Beats Studio Buds\",\"price\":149.99,\"color\":\"Beats Red\",\"badge\":true,\"brand\":\"Beats\",\"des\":\"Immerse yourself in music with the Beats Studio Buds. With Active Noise Cancelling, Transparency mode, and up to 8 hours of battery life, they offer powerful sound in a compact and stylish design.\",\"cat\":\"Headsets\",\"ficheTech\":[{\"label\":\"Noise Cancellation\",\"value\":\"Yes (Active Noise Cancelling)\",\"_id\":\"668c0a4ab27d61c76b4f4b0f\"},{\"label\":\"Battery Life\",\"value\":\"Up to 8 hours\",\"_id\":\"668c0a4ab27d61c76b4f4b10\"},{\"label\":\"Bluetooth Version\",\"value\":\"5.2\",\"_id\":\"668c0a4ab27d61c76b4f4b11\"},{\"label\":\"Driver Size\",\"value\":\"Unknown\",\"_id\":\"668c0a4ab27d61c76b4f4b12\"},{\"label\":\"Frequency Response\",\"value\":\"Unknown\",\"_id\":\"668c0a4ab27d61c76b4f4b13\"},{\"label\":\"Weight\",\"value\":\"Unknown\",\"_id\":\"668c0a4ab27d61c76b4f4b14\"}],\"__v\":0}]}"
+    }
+  },
+  {
+    "id": "req-6",
+    "url": "https://playgroundbackend.vercel.app/api/products/best-seller/",
+    "method": "GET",
+    "resourceType": "xhr",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.playground.testingmavens.tools/",
+      "accept-language": "en-US",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.4 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "ssid": "a557fa4c-85bd-4434-83bf-e444ef9c9448"
+    },
+    "timestamp": "2025-11-27T07:38:38.413Z",
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "br",
+        "x-vercel-cache": "MISS",
+        "etag": "W/\"2008-eOrllwsRV1799B0qc7TqgKC2RJ4\"",
+        "age": "0",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 27 Nov 2025 07:38:40 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "x-powered-by": "Express",
+        "server": "Vercel",
+        "x-vercel-id": "bom1::iad1::6wc49-1764229118094-e631520047ee"
+      },
+      "body": "{\"products\":[{\"_id\":\"668c0a4cb27d61c76b4f4b26\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/101515ae-edbb-47f1-8702-7b221f5463bb-headset8.jpeg\",\"productName\":\"Razer BlackShark V2 Pro\",\"price\":179.99,\"color\":\"Black\",\"badge\":true,\"brand\":\"Razer\",\"des\":\"Elevate your gaming experience with the Razer BlackShark V2 Pro headset. Featuring THX Spatial Audio, Triforce Titanium 50mm drivers, and up to 24 hours of battery life, it delivers immersive sound and crystal-clear communication.\",\"cat\":\"Headsets\",\"ficheTech\":[{\"label\":\"Noise Cancellation\",\"value\":\"No\",\"_id\":\"668c0a4cb27d61c76b4f4b27\"},{\"label\":\"Battery Life\",\"value\":\"Up to 24 hours\",\"_id\":\"668c0a4cb27d61c76b4f4b28\"},{\"label\":\"Wireless\",\"value\":\"2.4GHz HyperSpeed\",\"_id\":\"668c0a4cb27d61c76b4f4b29\"},{\"label\":\"Microphone\",\"value\":\"HyperClear Supercardioid Mic\",\"_id\":\"668c0a4cb27d61c76b4f4b2a\"},{\"label\":\"Frequency Response\",\"value\":\"12Hz-28,000Hz\",\"_id\":\"668c0a4cb27d61c76b4f4b2b\"},{\"label\":\"Weight\",\"value\":\"Approx. 320g\",\"_id\":\"668c0a4cb27d61c76b4f4b2c\"}],\"__v\":0},{\"_id\":\"668c0a55b27d61c76b4f4b66\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/53bef091-2c1c-4c77-8c8b-79928ca7ced4-tv6.webp\",\"productName\":\"Vizio P-Series Quantum\",\"price\":1499.99,\"color\":\"Black\",\"badge\":true,\"brand\":\"Vizio\",\"des\":\"Enjoy breathtaking visuals with the Vizio P-Series Quantum TV. Featuring Quantum Color technology, Dolby Vision HDR, and ProGaming Engine, it delivers stunning picture quality and smooth gaming experiences.\",\"cat\":\"TVs\",\"ficheTech\":[{\"label\":\"Screen Size\",\"value\":\"75 inches\",\"_id\":\"668c0a55b27d61c76b4f4b67\"},{\"label\":\"Resolution\",\"value\":\"4K UHD\",\"_id\":\"668c0a55b27d61c76b4f4b68\"},{\"label\":\"Display Technology\",\"value\":\"Quantum Color\",\"_id\":\"668c0a55b27d61c76b4f4b69\"},{\"label\":\"HDR\",\"value\":\"Dolby Vision, HDR10, HLG\",\"_id\":\"668c0a55b27d61c76b4f4b6a\"},{\"label\":\"Smart Platform\",\"value\":\"SmartCast\",\"_id\":\"668c0a55b27d61c76b4f4b6b\"},{\"label\":\"HDMI Ports\",\"value\":\"4\",\"_id\":\"668c0a55b27d61c76b4f4b6c\"}],\"__v\":0},{\"_id\":\"668c0a49b27d61c76b4f4afe\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/41ff15c2-a0c1-472e-9abc-7c5cf4d90fb7-headset3.webp\",\"productName\":\"Sennheiser Momentum 3 Wireless\",\"price\":399.95,\"color\":\"Sandy White\",\"badge\":true,\"brand\":\"Sennheiser\",\"des\":\"Experience premium sound and style with the Sennheiser Momentum 3 Wireless headphones. Featuring Active Noise Cancellation, genuine leather ear cups, and up to 17 hours of battery life, they offer a luxurious listening experience.\",\"cat\":\"Headsets\",\"ficheTech\":[{\"label\":\"Noise Cancellation\",\"value\":\"Yes (Active Noise Cancellation)\",\"_id\":\"668c0a49b27d61c76b4f4aff\"},{\"label\":\"Battery Life\",\"value\":\"Up to 17 hours\",\"_id\":\"668c0a49b27d61c76b4f4b00\"},{\"label\":\"Bluetooth Version\",\"value\":\"5.0\",\"_id\":\"668c0a49b27d61c76b4f4b01\"},{\"label\":\"Driver Size\",\"value\":\"42mm\",\"_id\":\"668c0a49b27d61c76b4f4b02\"},{\"label\":\"Frequency Response\",\"value\":\"6Hz-22,000Hz\",\"_id\":\"668c0a49b27d61c76b4f4b03\"},{\"label\":\"Weight\",\"value\":\"Approx. 305g\",\"_id\":\"668c0a49b27d61c76b4f4b04\"}],\"__v\":0},{\"_id\":\"668c0a56b27d61c76b4f4b76\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/df308cc9-e684-42fe-9660-4746777cd5be-tv8.png\",\"productName\":\"Panasonic JZ2000 OLED\",\"price\":2499.99,\"color\":\"Carbon Black\",\"badge\":true,\"brand\":\"Panasonic\",\"des\":\"Immerse yourself in cinematic experiences with the Panasonic JZ2000 OLED TV. Featuring HCX Pro AI Processor, Dolby Vision IQ, and Technics-tuned Dolby Atmos speakers, it delivers unparalleled picture quality and audio performance.\",\"cat\":\"TVs\",\"ficheTech\":[{\"label\":\"Screen Size\",\"value\":\"65 inches\",\"_id\":\"668c0a56b27d61c76b4f4b77\"},{\"label\":\"Resolution\",\"value\":\"4K UHD\",\"_id\":\"668c0a56b27d61c76b4f4b78\"},{\"label\":\"Display Technology\",\"value\":\"OLED\",\"_id\":\"668c0a56b27d61c76b4f4b79\"},{\"label\":\"HDR\",\"value\":\"HDR10, Dolby Vision, HLG\",\"_id\":\"668c0a56b27d61c76b4f4b7a\"},{\"label\":\"Smart Platform\",\"value\":\"My Home Screen 6.0\",\"_id\":\"668c0a56b27d61c76b4f4b7b\"},{\"label\":\"HDMI Ports\",\"value\":\"4\",\"_id\":\"668c0a56b27d61c76b4f4b7c\"}],\"__v\":0},{\"_id\":\"668c0a4ab27d61c76b4f4b0e\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/76eb2e4f-14e6-4a2c-8a69-0e246949e9d0-headset5.jpeg\",\"productName\":\"Beats Studio Buds\",\"price\":149.99,\"color\":\"Beats Red\",\"badge\":true,\"brand\":\"Beats\",\"des\":\"Immerse yourself in music with the Beats Studio Buds. With Active Noise Cancelling, Transparency mode, and up to 8 hours of battery life, they offer powerful sound in a compact and stylish design.\",\"cat\":\"Headsets\",\"ficheTech\":[{\"label\":\"Noise Cancellation\",\"value\":\"Yes (Active Noise Cancelling)\",\"_id\":\"668c0a4ab27d61c76b4f4b0f\"},{\"label\":\"Battery Life\",\"value\":\"Up to 8 hours\",\"_id\":\"668c0a4ab27d61c76b4f4b10\"},{\"label\":\"Bluetooth Version\",\"value\":\"5.2\",\"_id\":\"668c0a4ab27d61c76b4f4b11\"},{\"label\":\"Driver Size\",\"value\":\"Unknown\",\"_id\":\"668c0a4ab27d61c76b4f4b12\"},{\"label\":\"Frequency Response\",\"value\":\"Unknown\",\"_id\":\"668c0a4ab27d61c76b4f4b13\"},{\"label\":\"Weight\",\"value\":\"Unknown\",\"_id\":\"668c0a4ab27d61c76b4f4b14\"}],\"__v\":0},{\"_id\":\"668c0a48b27d61c76b4f4aee\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/f8bcb8f6-dd9b-4d98-a37e-849abee148c1-headset1.webp\",\"productName\":\"Sony WH-1000XM4\",\"price\":349.99,\"color\":\"Black\",\"badge\":true,\"brand\":\"Sony\",\"des\":\"Experience industry-leading noise cancellation with the Sony WH-1000XM4 headphones. Featuring advanced Adaptive Sound Control, Dual Noise Sensor technology, and up to 30 hours of battery life, they deliver immersive sound in any environment.\",\"cat\":\"Headsets\",\"ficheTech\":[{\"label\":\"Noise Cancellation\",\"value\":\"Yes (Active Noise Cancellation)\",\"_id\":\"668c0a48b27d61c76b4f4aef\"},{\"label\":\"Battery Life\",\"value\":\"Up to 30 hours\",\"_id\":\"668c0a48b27d61c76b4f4af0\"},{\"label\":\"Bluetooth Version\",\"value\":\"5.0\",\"_id\":\"668c0a48b27d61c76b4f4af1\"},{\"label\":\"Driver Unit\",\"value\":\"40mm, dome type (CCAW Voice coil)\",\"_id\":\"668c0a48b27d61c76b4f4af2\"},{\"label\":\"Frequency Response\",\"value\":\"4Hz-40,000Hz\",\"_id\":\"668c0a48b27d61c76b4f4af3\"},{\"label\":\"Weight\",\"value\":\"Approx. 254g\",\"_id\":\"668c0a48b27d61c76b4f4af4\"}],\"__v\":0},{\"_id\":\"668c0a4bb27d61c76b4f4b1e\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/fd49ea6f-fe70-4019-9714-26b8dc00e23a-headset7.webp\",\"productName\":\"SteelSeries Arctis 9\",\"price\":199.99,\"color\":\"Black\",\"badge\":true,\"brand\":\"SteelSeries\",\"des\":\"Get immersed in gaming with the SteelSeries Arctis 9 wireless headset. Featuring lossless 2.4GHz wireless audio, ClearCast noise-cancelling microphone, and 20 hours of battery life, it offers high-quality sound and communication for gamers.\",\"cat\":\"Headsets\",\"ficheTech\":[{\"label\":\"Noise Cancellation\",\"value\":\"Yes (ClearCast)\",\"_id\":\"668c0a4bb27d61c76b4f4b1f\"},{\"label\":\"Battery Life\",\"value\":\"Up to 20 hours\",\"_id\":\"668c0a4bb27d61c76b4f4b20\"},{\"label\":\"Wireless\",\"value\":\"2.4GHz Lossless\",\"_id\":\"668c0a4bb27d61c76b4f4b21\"},{\"label\":\"Microphone\",\"value\":\"Bidirectional ClearCast\",\"_id\":\"668c0a4bb27d61c76b4f4b22\"},{\"label\":\"Frequency Response\",\"value\":\"20Hz-20,000Hz\",\"_id\":\"668c0a4bb27d61c76b4f4b23\"},{\"label\":\"Weight\",\"value\":\"Unknown\",\"_id\":\"668c0a4bb27d61c76b4f4b24\"}],\"__v\":0},{\"_id\":\"668c0a42b27d61c76b4f4a96\",\"img\":\"https://testingmavens-web.s3.eu-north-1.amazonaws.com/MavenStore/e8332a0e-9342-4c90-9f2a-ebad89ee50fb-laptop10.jpeg\",\"productName\":\"MSI GS66 Stealth\",\"price\":1799,\"color\":\"Matte Black\",\"badge\":true,\"brand\":\"MSI\",\"des\":\"The MSI GS66 Stealth is a gaming laptop with a 15.6-inch Full HD display, 10th Gen Intel Core i7 processor, 16GB RAM, and 1TB SSD storage. It features NVIDIA GeForce RTX graphics for smooth gaming performance and a sleek, portable design.\",\"cat\":\"Laptops\",\"ficheTech\":[{\"label\":\"Processor\",\"value\":\"Intel Core i7\",\"_id\":\"668c0a42b27d61c76b4f4a97\"},{\"label\":\"RAM\",\"value\":\"16GB\",\"_id\":\"668c0a42b27d61c76b4f4a98\"},{\"label\":\"Storage\",\"value\":\"1TB SSD\",\"_id\":\"668c0a42b27d61c76b4f4a99\"},{\"label\":\"Display\",\"value\":\"15.6-inch Full HD\",\"_id\":\"668c0a42b27d61c76b4f4a9a\"},{\"label\":\"Graphics\",\"value\":\"NVIDIA GeForce RTX\",\"_id\":\"668c0a42b27d61c76b4f4a9b\"},{\"label\":\"Operating System\",\"value\":\"Windows 10 Home\",\"_id\":\"668c0a42b27d61c76b4f4a9c\"}],\"__v\":0}]}"
+    }
+  }
+]

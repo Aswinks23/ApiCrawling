@@ -1,0 +1,255 @@
+{
+  "info": {
+    "name": "Discovered API Requests",
+    "description": "Captured on 2025-11-27T07:38:55.835Z",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET https://playgroundbackend.vercel.app/api/categories/",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "sec-ch-ua-platform",
+            "value": "\"Windows\""
+          },
+          {
+            "key": "referer",
+            "value": "https://www.playground.testingmavens.tools/"
+          },
+          {
+            "key": "accept-language",
+            "value": "en-US"
+          },
+          {
+            "key": "sec-ch-ua",
+            "value": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\""
+          },
+          {
+            "key": "sec-ch-ua-mobile",
+            "value": "?0"
+          },
+          {
+            "key": "user-agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.4 Safari/537.36"
+          },
+          {
+            "key": "accept",
+            "value": "application/json, text/plain, */*"
+          },
+          {
+            "key": "ssid",
+            "value": "a557fa4c-85bd-4434-83bf-e444ef9c9448"
+          }
+        ],
+        "url": "https://playgroundbackend.vercel.app/api/categories/"
+      }
+    },
+    {
+      "name": "GET https://playgroundbackend.vercel.app/api/cart/",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "sec-ch-ua-platform",
+            "value": "\"Windows\""
+          },
+          {
+            "key": "referer",
+            "value": "https://www.playground.testingmavens.tools/"
+          },
+          {
+            "key": "accept-language",
+            "value": "en-US"
+          },
+          {
+            "key": "sec-ch-ua",
+            "value": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\""
+          },
+          {
+            "key": "sec-ch-ua-mobile",
+            "value": "?0"
+          },
+          {
+            "key": "user-agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.4 Safari/537.36"
+          },
+          {
+            "key": "accept",
+            "value": "application/json, text/plain, */*"
+          },
+          {
+            "key": "ssid",
+            "value": "a557fa4c-85bd-4434-83bf-e444ef9c9448"
+          }
+        ],
+        "url": "https://playgroundbackend.vercel.app/api/cart/"
+      }
+    },
+    {
+      "name": "GET https://playgroundbackend.vercel.app/api/products/carousal/",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "sec-ch-ua-platform",
+            "value": "\"Windows\""
+          },
+          {
+            "key": "referer",
+            "value": "https://www.playground.testingmavens.tools/"
+          },
+          {
+            "key": "accept-language",
+            "value": "en-US"
+          },
+          {
+            "key": "sec-ch-ua",
+            "value": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\""
+          },
+          {
+            "key": "sec-ch-ua-mobile",
+            "value": "?0"
+          },
+          {
+            "key": "user-agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.4 Safari/537.36"
+          },
+          {
+            "key": "accept",
+            "value": "application/json, text/plain, */*"
+          },
+          {
+            "key": "ssid",
+            "value": "a557fa4c-85bd-4434-83bf-e444ef9c9448"
+          }
+        ],
+        "url": "https://playgroundbackend.vercel.app/api/products/carousal/"
+      }
+    },
+    {
+      "name": "GET https://playgroundbackend.vercel.app/api/products/discount/",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "sec-ch-ua-platform",
+            "value": "\"Windows\""
+          },
+          {
+            "key": "referer",
+            "value": "https://www.playground.testingmavens.tools/"
+          },
+          {
+            "key": "accept-language",
+            "value": "en-US"
+          },
+          {
+            "key": "sec-ch-ua",
+            "value": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\""
+          },
+          {
+            "key": "sec-ch-ua-mobile",
+            "value": "?0"
+          },
+          {
+            "key": "user-agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.4 Safari/537.36"
+          },
+          {
+            "key": "accept",
+            "value": "application/json, text/plain, */*"
+          },
+          {
+            "key": "ssid",
+            "value": "a557fa4c-85bd-4434-83bf-e444ef9c9448"
+          }
+        ],
+        "url": "https://playgroundbackend.vercel.app/api/products/discount/"
+      }
+    },
+    {
+      "name": "GET https://playgroundbackend.vercel.app/api/products/new-arrival/",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "sec-ch-ua-platform",
+            "value": "\"Windows\""
+          },
+          {
+            "key": "referer",
+            "value": "https://www.playground.testingmavens.tools/"
+          },
+          {
+            "key": "accept-language",
+            "value": "en-US"
+          },
+          {
+            "key": "sec-ch-ua",
+            "value": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\""
+          },
+          {
+            "key": "sec-ch-ua-mobile",
+            "value": "?0"
+          },
+          {
+            "key": "user-agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.4 Safari/537.36"
+          },
+          {
+            "key": "accept",
+            "value": "application/json, text/plain, */*"
+          },
+          {
+            "key": "ssid",
+            "value": "a557fa4c-85bd-4434-83bf-e444ef9c9448"
+          }
+        ],
+        "url": "https://playgroundbackend.vercel.app/api/products/new-arrival/"
+      }
+    },
+    {
+      "name": "GET https://playgroundbackend.vercel.app/api/products/best-seller/",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "sec-ch-ua-platform",
+            "value": "\"Windows\""
+          },
+          {
+            "key": "referer",
+            "value": "https://www.playground.testingmavens.tools/"
+          },
+          {
+            "key": "accept-language",
+            "value": "en-US"
+          },
+          {
+            "key": "sec-ch-ua",
+            "value": "\"HeadlessChrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\""
+          },
+          {
+            "key": "sec-ch-ua-mobile",
+            "value": "?0"
+          },
+          {
+            "key": "user-agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.4 Safari/537.36"
+          },
+          {
+            "key": "accept",
+            "value": "application/json, text/plain, */*"
+          },
+          {
+            "key": "ssid",
+            "value": "a557fa4c-85bd-4434-83bf-e444ef9c9448"
+          }
+        ],
+        "url": "https://playgroundbackend.vercel.app/api/products/best-seller/"
+      }
+    }
+  ]
+}
