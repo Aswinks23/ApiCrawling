@@ -29,12 +29,17 @@ jobs:
       - name: Run API crawl tests
         run: npx playwright test tests/example.spec.ts
 
-      - name: Upload API crawl artifacts
+      - name: Zip API collections
+        run: |
+          mkdir -p ExportApi
+          zip -r api_collections.zip ExportApi \
+            saved_api_requests.json \
+            postman_api_requests.json \
+            all_discovered_api_urls.json 2>/dev/null || true
+
+      - name: Upload API crawl artifacts (ZIP only)
         uses: actions/upload-artifact@v4
         with:
-          name: api-crawl-json
-          path: |
-            saved_api_requests.json
-            postman_api_requests.json
-            all_discovered_api_urls.json
+          name: api-collections-zip
+          path: api_collections.zip
           if-no-files-found: ignore
