@@ -3,44 +3,29 @@ name: Playwright API Crawl
 on:
   workflow_dispatch:
     inputs:
-      delay_option:
-        description: "When to start the crawl"
+      delay_minutes:
+        description: "Delay before starting crawl (in minutes)"
         required: true
-        default: run_now
-        type: choice
-        options:
-          - run_now
-          - run_after_2_min
-          - run_after_30_min
-          - run_after_2_hours
+        default: 0
+        type: number
 
 jobs:
   api-crawl:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Show selected option
-        run: echo "Selected delay_option=${{ github.event.inputs.delay_option }}"
+      - name: Show selected delay
+        run: echo "Selected delay_minutes=${{ github.event.inputs.delay_minutes }}"
 
       - name: Resolve delay in seconds
         id: delay
         shell: bash
         run: |
-          echo "delay_option=${{ github.event.inputs.delay_option }}"
-          case "${{ github.event.inputs.delay_option }}" in
-            run_now)
-              echo "seconds=0" >> "$GITHUB_OUTPUT"
-              ;;
-            run_after_2_min)
-              echo "seconds=120" >> "$GITHUB_OUTPUT"
-              ;;
-            run_after_30_min)
-              echo "seconds=1800" >> "$GITHUB_OUTPUT"
-              ;;
-            run_after_2_hours)
-              echo "seconds=7200" >> "$GITHUB_OUTPUT"
-              ;;
-          esac
+          delay_minutes=${{ github.event.inputs.delay_minutes }}
+          echo "delay_minutes=${delay_minutes}"
+          # Convert minutes to seconds
+          seconds=$((delay_minutes * 60))
+          echo "seconds=${seconds}" >> "$GITHUB_OUTPUT"
 
       - name: Wait before starting crawl
         shell: bash
